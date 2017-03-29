@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+ h6 {
+   font: oblique 1rem 'Orbitron', sans-serif;
+   color: #fff;
+ }
+#calculator{
+  background: #565656;
+  height: 450px;
+  width: 325px;
+  padding: 2rem;
+  border: 5px solid #383838;
+  border-radius: 5%;
+  margin: 75px auto 20px auto;
+}
+
+#display {
+  text-align: right;
+  width: 15rem;
+  font: bold 2rem 'Orbitron', sans-serif;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 1rem auto;
+  outline: none;
+}
+
+#keys,
+#equals {
+  padding: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+  margin: 0.3rem;
+  font: bold 1rem 'Orbitron', sans-serif;
+  text-align: center;
+  border-radius: 25%;
+  outline: none;
+}
+
+footer {
+  font: bold 0.75rem sans-serif;
+  color: #000;
+  margin: 0 auto;
+}

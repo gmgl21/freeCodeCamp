@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="calculator.css">
+
+</head>
+<body>
+  <div  class="container" id="calculator">
+    <h6>Calculator</h3>
+        <input id="display" type="text" placeholder="" maxlength="10">
+      <br>
+    <input class="btn btn-danger" id="keys" type="button" value="C" onclick='toScreen("c")'>
+    <input class="btn btn-warning" id="keys" type="button" value="CE" onclick='backspace()'>
+    <input class="btn btn-primary" id="keys" type="button" value="&#8730;" onclick='squareRoot()'>
+    <input class="btn btn-primary" id="keys" type="button" value="x&sup2;" onclick='squared()'>
+
+    <br>
+    <input class="btn btn-primary" id="keys" type="button" value="7" onclick='toScreen("7")'>
+    <input class="btn btn-primary" id="keys" type="button" value="8" onclick='toScreen("8")'>
+    <input class="btn btn-primary" id="keys" type="button" value="9" onclick='toScreen("9")'>
+    <input class="btn btn-primary" id="keys" type="button" value="&divide;" onclick='toScreen("/")'>
+    <br>
+    <input class="btn btn-primary" id="keys" type="button" value="4" onclick='toScreen("4")'>
+    <input class="btn btn-primary" id="keys" type="button" value="5" onclick='toScreen("5")'>
+    <input class="btn btn-primary" id="keys" type="button" value="6" onclick='toScreen("6")'>
+    <input class="btn btn-primary" id="keys" type="button" value="&times;" onclick='toScreen("*")'>
+    <br>
+    <input class="btn btn-primary" id="keys" type="button" value="1" onclick='toScreen("1")'>
+    <input class="btn btn-primary" id="keys" type="button" value="2" onclick='toScreen("2")'>
+    <input class="btn btn-primary" id="keys" type="button" value="3" onclick='toScreen("3")'>
+  <input class="btn btn-primary" id="keys" type="button" value="&minus;" onclick='toScreen("-")'>
+    <br>
+    <input class="btn btn-primary" id="keys" type="button" value="0" onclick='toScreen("0")'>
+    <input class="btn btn-primary" id="keys" type="button" value="&#46;" onclick='toScreen(".")'>
+    <input class="btn btn-success" id="keys" type="button" value="&#61;" onclick='equals()'>
+    <input class="btn btn-primary" id="keys" type="button" value="&plus;" onclick='toScreen("+")'>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="calculator.js"></script>
+</body>
+<footer>
+  <p>Created and coded by <a href="https://github.com/gmgl21" target="_blank">Gloria Lee</a></p>
+</footer>
+</html>
