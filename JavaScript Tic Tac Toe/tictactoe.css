@@ -1,0 +1,126 @@
+html,
+body {
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase !important;
+  font-family: 'Press Start 2P', sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font: bold 3rem 'Press Start 2P', sans-serif;
+  margin: 3rem 0 0 0;
+}
+h3 {
+  color: #fff;
+  font: 2.2rem small-caps 'Press Start 2P', sans-serif;
+  margin: 2.2rem 0;
+}
+*:focus {
+    outline: 0 !important;
+}
+
+.btn-success {
+  width: 4.5rem;
+  height: 4.5rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+}
+.container{
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+justify-content:center;
+}
+#board {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+
+.tile {
+  display: flex;
+  justify-content:center;
+  width: 7rem;
+  height: 7rem;
+  line-height: 7rem;;
+  padding: 0;
+  margin: 0.3rem;
+  background-color: #fff;
+  border-radius: 5%;
+  font-size: 3.75rem;
+  color: #000 !important;
+}
+
+#reset {
+  width:7rem;
+  height:3rem;
+  text-transform: uppercase;
+  border-radius:5%;
+  border: none;
+  margin: 1.5rem auto;
+}
+#scoreboard {
+  text-align: center;
+  margin: 0;
+}
+.score {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+span {
+    margin-left:1rem;
+}
+.winner {
+  background-color: red;
+  color: #fff !important;
+}
+footer {
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0 auto;
+}
+
+@media screen and (min-width:320px)and (max-width: 1000px) {
+  h1 {
+    font-size: 2rem;
+    margin: 2rem 0 0 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .tile {
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    font-size: 2rem;
+  }
+
+.btn-success {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0;
+    border: none;
+  }
+
+  #reset {
+    width:6rem;
+    height:2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius:5%;
+    border: none;
+    margin: 1rem auto;
+  }
+  #scoreboard {font-size:1rem;}
+  .score {font-size: 1rem;}
+}

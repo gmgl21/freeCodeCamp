@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="tictactoe.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>tic tac toe</h1>
+    <h3>X or O ?</h3>
+    <div class="row">
+    <button type="button" class="btn btn-success choose" id="x">X</button>
+    <button type="button" class="btn btn-success choose" id="o">O</button>
+    </div>
+    <div class="board">
+      <div class="row">
+        <div class="col-xs-4 tile" id="s0"></div>
+        <div class="col-xs-4 tile" id="s1"></div>
+        <div class="col-xs-4 tile" id="s2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 tile" id="s3"></div>
+        <div class="col-xs-4 tile" id="s4"></div>
+        <div class="col-xs-4 tile" id="s5"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 tile" id="s6"></div>
+        <div class="col-xs-4 tile" id="s7"></div>
+        <div class="col-xs-4 tile" id="s8"></div>
+      </div>
+    </div>
+    <div class="row">
+      <button class="button btn-danger" id="reset" onclick="resetGame()">reset</button>
+    </div>
+  </div>
+  <h3 id="scoreboard"> scores</h3>
+    <p class="score">Player<span class="person X">0</span>
+    Computer<span class="aiPlayer O">0</span></p>
+
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="tictactoe.js"></script>
+</body>
+<footer>
+  <p>Created and coded by <a href="https://github.com/gmgl21" target="_blank">Gloria Lee</a></p>
+</footer>
+</html>
